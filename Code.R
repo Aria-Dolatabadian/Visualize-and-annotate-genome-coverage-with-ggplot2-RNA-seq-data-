@@ -24,8 +24,8 @@ mark.region
 
 #Load GTF file:
 
-gtf.file = system.file("extdata", "used_hg19.gtf", package = "ggcoverage")
-gtf.gr = rtracklayer::import.gff(con = gtf.file, format = 'gtf')
+gtf.file = system.file("C:/Users/00090473/RWD")
+
 
 #Basic coverage
 basic.coverage = ggcoverage(data = track.df, color = "auto", 
